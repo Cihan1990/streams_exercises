@@ -31,7 +31,7 @@ class _MainScreenState extends State<MainScreen> {
             OutlinedButton(
               onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context) {
-                  return NumberScreen(numberRepository: numberRepository);
+                  return NumberScreen(numberRepository:numberRepository);
                 }));
               },
               child: const Text("Zum Number Screen"),
